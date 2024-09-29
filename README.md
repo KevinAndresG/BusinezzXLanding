@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+## Versions:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- React: 18.
+- Node: 18.
+- BootsTrap: 5.
 
-Currently, two official plugins are available:
+## ¡Bienvenido/a Frontend!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Gracias por tu interés y tu tiempo para realizar este desafío DOMO.
 
-## Expanding the ESLint configuration
+## ¿Qué es este desafío?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Es una prueba para que entendamos cómo pensás, tu nivel de seniority en web dev, y ensayar cómo sería trabajar juntos.
 
-- Configure the top-level `parserOptions` property like this:
+## ¿En qué consiste?
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- sTenés que maquetar un .html a partir de una imagen que te entregamos.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## ¿Qué cosas tendremos en cuenta?
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### En este desafío evaluamos:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Que sabés usar Bootstrap. ✅
+- Que sabés CSS. ✅
+- Que tu entrega es responsive. ✅
+- Que hay una alta fidelidad entre la imagen y tu maqueta. ✅
+- Que sabés aplicar JavaScript. ✅
+- Que prestás atención a los detalles. ✅
+
+## Cosas que suman:
+
+- Queremos conocerte y ver tu creatividad en acción. ✅
+- Podés usar frameworks, agregar animaciones, un spinning, o aplicar al menos un detalle donde se vea tu conocimiento de JavaScript. ✅
+
+# DEPLOY LINK:
+
+- https://businezzxlanding-kevin-garcia.netlify.app
