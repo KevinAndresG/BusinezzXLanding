@@ -1,0 +1,202 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.bg-welcome-section {
+    background-color: #022a41;
+    box-shadow: 2px 10px 10px #000000;
+    z-index: 10;
+}
+
+.nav {
+    z-index: 10;
+    box-shadow: 0 2px 10px #000000;
+}
+
+.pt-welcome-section {
+    padding: 6.714285714285714em 7.5em;
+}
+
+.mx-navbar {
+    margin: .8em 7.5em;
+    padding: 0;
+}
+
+.letter-sp-1 {
+    letter-spacing: -1px;
+}
+
+.border-welcome {
+    border-bottom: 4.5px solid #0097ff;
+}
+
+.text-welcome {
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #547085;
+}
+
+.lh-title {
+    line-height: 1.1;
+    margin-bottom: 30px !important;
+}
+
+.pb-title {
+    padding-bottom: 156px;
+    border-bottom: 1px solid #547085a4;
+}
+
+.font-welcome-desc {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.welcome-contact {
+    padding: 13px 28px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #022a41;
+}
+
+.nav-logo {
+    box-sizing: content-box;
+    padding-right: 29px;
+    border-right: 1px solid #dbdbdb;
+    margin-right: 29px;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #022a41;
+    border-bottom: 0.5px solid transparent;
+    transition: scale .1s ease, border .1s ease;
+
+    &:hover {
+        color: #32516e;
+        scale: 1.1;
+        border-bottom: 0.5px solid #32516e;
+    }
+
+    &.active {
+        scale: 1.1;
+        border-bottom: 0.5px solid #32516e;
+        color: #32516e !important;
+    }
+}
+
+.nav-items {
+    gap: 10px;
+}
+
+.nav-btn {
+    color: #022a41;
+    border: 2px solid #022a41;
+    background-color: transparent;
+    padding: 10px 25px;
+    transition: scale .1s ease, color .1s ease, border .1s ease, background-color .1s ease;
+
+    &:hover {
+        background-color: #022a41;
+        color: #fff;
+        border: 2px solid #32516e;
+        scale: 1.05;
+    }
+}
+
+.form-container {
+    background: url(./assets/room.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    z-index: 5;
+}
+
+.data {
+    z-index: 10;
+}
+
+.light-shadow {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(#005a8f, #004f7c, #022a414d);
+    filter: blur(130px);
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+    z-index: 0;
+}
+
+.form-top-btn {
+    color: #022a41;
+    border: 2px solid #022a41;
+    background-color: transparent;
+    padding: 5px 15px;
+    font-size: 14px;
+    transition: scale .1s ease, color .1s ease, border .1s ease, background-color .1s ease;
+
+    &:hover {
+        background-color: #022a41;
+        color: #fff;
+        border: 2px solid #32516e;
+        scale: 1.05;
+    }
+}
+
+.form-submit-btn {
+    color: #18314c;
+    border: 2px solid #18314c;
+    background-color: transparent;
+    padding: 15px 15px;
+    font-size: 18px;
+    transition: scale .1s ease, color .1s ease, border .1s ease, background-color .1s ease;
+
+    &:hover {
+        background-color: #18314c;
+        color: #fff;
+        border: 2px solid #32516e;
+        scale: 1.05;
+    }
+}
+
+.form {
+    margin-top: 130px;
+    width: 29.357142857142858em;
+    height: 29.071428571428573em;
+    line-height: 1;
+    padding-top: 39px;
+}
+
+.form-rows {
+    justify-content: space-between !important;
+}
+
+.form-input {
+    padding: 16px 20px;
+    color: #18314c;
+    border: 2px solid #dbdbdb;
+
+    &::placeholder {
+        color: #18314c;
+    }
+}
+
+.form-title {
+    color: #18314c;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #fff;
+    box-shadow: inset 0 7px 8px -5px #1a1a1a;
+    padding: 6.714285714285714em 7.5em;
+    z-index: 20;
+}
+
+@media screen and (width <=819px) {
+    .pt-welcome-section {
+        padding: 6.714285714285714em 3em;
+    }
+
+    .form {
+        height: 32.071428571428573em;
+    }
+}
